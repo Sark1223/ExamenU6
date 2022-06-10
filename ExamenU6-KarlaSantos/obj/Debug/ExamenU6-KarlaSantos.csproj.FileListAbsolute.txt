@@ -1,0 +1,7 @@
+C:\Users\santo\Documents\GitHub\U5\ExamenU6\ExamenU6-KarlaSantos\bin\Debug\ExamenU6-KarlaSantos.exe.config
+C:\Users\santo\Documents\GitHub\U5\ExamenU6\ExamenU6-KarlaSantos\bin\Debug\ExamenU6-KarlaSantos.exe
+C:\Users\santo\Documents\GitHub\U5\ExamenU6\ExamenU6-KarlaSantos\bin\Debug\ExamenU6-KarlaSantos.pdb
+C:\Users\santo\Documents\GitHub\U5\ExamenU6\ExamenU6-KarlaSantos\obj\Debug\ExamenU6-KarlaSantos.csproj.AssemblyReference.cache
+C:\Users\santo\Documents\GitHub\U5\ExamenU6\ExamenU6-KarlaSantos\obj\Debug\ExamenU6-KarlaSantos.csproj.CoreCompileInputs.cache
+C:\Users\santo\Documents\GitHub\U5\ExamenU6\ExamenU6-KarlaSantos\obj\Debug\ExamenU6-KarlaSantos.exe
+C:\Users\santo\Documents\GitHub\U5\ExamenU6\ExamenU6-KarlaSantos\obj\Debug\ExamenU6-KarlaSantos.pdb
