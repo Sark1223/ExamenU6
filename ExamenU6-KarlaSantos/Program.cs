@@ -117,13 +117,13 @@ namespace ExamenU6_KarlaSantos
                                     Console.ReadKey();
                                     Console.Clear();
                                 }
-                                //catch (FormatException)
-                                //{
-                                //    Console.WriteLine("El tipo de dato ingresado es erroneo");
-                                //    Console.WriteLine("Precion <enter> para continuar. . .");
-                                //    Console.ReadKey();
-                                //    Console.Clear();
-                                //}
+                                catch (FormatException)
+                                {
+                                    Console.WriteLine("El tipo de dato ingresado es erroneo");
+                                    Console.WriteLine("Precion <enter> para continuar. . .");
+                                    Console.ReadKey();
+                                    Console.Clear();
+                                }
 
                             } while (error == true);
 
