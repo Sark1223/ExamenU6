@@ -98,23 +98,32 @@ namespace ExamenU6_KarlaSantos
 
                                     Producto llamar = new Producto(nombre, descripcion, precio, cantidadStock);
 
-                                    sw.WriteLine("Nombre: " + llamar.nombre +
-                                                 "Descripcion: " + llamar.descripcion +
-                                                 "Precio: {0,C}" +
-                                                 "Cantidad en Stock: " + llamar.cantidadStock, llamar.precio);
+                                    sw.WriteLine("Nombre: {0}" +
+                                                 "\nDescripcion: {1} " + 
+                                                 "\nPrecio: {2:C}"+
+                                                 "\nCantidad en Stock: {3:C}", llamar.nombre, llamar.descripcion, llamar.cantidadStock, llamar.precio);
                                 }
                                 catch (IOException e)
                                 {
                                     Console.WriteLine(e.Message);
+                                    Console.WriteLine("Precion <enter> para continuar. . .");
+                                    Console.ReadKey();
+                                    Console.Clear();
                                 }
                                 catch (OverflowException e)
                                 {
                                     Console.WriteLine(e.Message);
+                                    Console.WriteLine("Precion <enter> para continuar. . .");
+                                    Console.ReadKey();
+                                    Console.Clear();
                                 }
-                                catch (FormatException)
-                                {
-                                    Console.WriteLine("El tipo de dato ingresado es erroneo");
-                                }
+                                //catch (FormatException)
+                                //{
+                                //    Console.WriteLine("El tipo de dato ingresado es erroneo");
+                                //    Console.WriteLine("Precion <enter> para continuar. . .");
+                                //    Console.ReadKey();
+                                //    Console.Clear();
+                                //}
 
                             } while (error == true);
 
