@@ -71,6 +71,7 @@ namespace ExamenU6_KarlaSantos
                     case 1:
                         { StreamWriter sw = new StreamWriter("Productos.txt", true);
                             Console.WriteLine("----AGREGAR UN ARTICULO AL INVENTARIO.----");
+
                             bool error = true;
                             
                             do
@@ -110,13 +111,14 @@ namespace ExamenU6_KarlaSantos
                                 {
                                     Console.WriteLine(e.Message);
                                 }
-                                catch (FormatException e)
+                                catch (FormatException)
                                 {
-                                    Console.WriteLine(e.Message);
+                                    Console.WriteLine("El tipo de dato ingresado es erroneo");
                                 }
 
-                            } while (error != false);
-                            Console.WriteLine("LOS DATOS SE HAN INGRESADO CORRECTAMENTE.");sw.Close();
+                            } while (error == true);
+
+                            Console.WriteLine("\nLOS DATOS SE HAN INGRESADO CORRECTAMENTE.");sw.Close();
                         }
                         break;
                     case 2:
