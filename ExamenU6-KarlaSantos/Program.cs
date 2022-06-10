@@ -101,7 +101,7 @@ namespace ExamenU6_KarlaSantos
                                     sw.WriteLine("Nombre: {0}" +
                                                  "\nDescripcion: {1} " + 
                                                  "\nPrecio: {2:C}"+
-                                                 "\nCantidad en Stock: {3}", llamar.nombre, llamar.descripcion, llamar.cantidadStock, llamar.precio);
+                                                 "\nCantidad en Stock: {3}", llamar.nombre, llamar.descripcion,llamar.precio, llamar.cantidadStock);
                                 }
                                 catch (IOException e)
                                 {

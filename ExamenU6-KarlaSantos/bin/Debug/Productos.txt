@@ -1,1 +1,5 @@
 
+Nombre: AriZona
+Descripcion: bebida sabor sandia 
+Precio: $12.00
+Cantidad en Stock: 17.5
